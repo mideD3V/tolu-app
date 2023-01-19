@@ -1,3 +1,8 @@
+# Tolu's Portfolio App
+
+Tolu is a creative business development officer and an expert Canva designer with over 5+years experience. She has helped several organization position their brands and have become an expert at it.
+
+## This project was developed by Ayomide Oke
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
