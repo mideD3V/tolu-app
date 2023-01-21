@@ -1,6 +1,11 @@
 import React from 'react'
 import Phone from "./contakt.png";
+import { useRef } from 'react';
 const Contact = () => {
+  const submitForm = useRef()
+  const sendEmail = () => {
+    
+  }
   return (
     <div className='contact-sess'>
       <div className="contact-img">
@@ -9,7 +14,10 @@ const Contact = () => {
       <div className="form">
         <h2>CONTACT</h2>
         <p>Lets discuss about your project. Send me a message now.</p>
-        <form action="" method="POST">
+        <form
+          useRef={submitForm}
+          onSubmit={sendEmail}
+          action="mailto:ayomideoke9@gmail.com" method="POST">
           <label htmlFor="name">Name</label>
           <input
             type="text"
