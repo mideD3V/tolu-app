@@ -7,17 +7,20 @@ const Contact = () => {
     
   }
   return (
-    <div className='contact-sess'>
+    <div className="contact-sess">
       <div className="contact-img">
         <img src={Phone} alt="" />
       </div>
       <div className="form">
         <h2>CONTACT</h2>
         <p>Lets discuss about your project. Send me a message now.</p>
+
         <form
           useRef={submitForm}
           onSubmit={sendEmail}
-          action="mailto:ayomideoke9@gmail.com" method="POST">
+          action="https://formsubmit.co/your@email.com"
+          method="POST"
+        >
           <label htmlFor="name">Name</label>
           <input
             type="text"
