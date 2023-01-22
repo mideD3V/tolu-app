@@ -22,6 +22,7 @@ body {
   /* font-family: 'Aclonica', sans-serif; */
 }
 
+
 /* Header styles */
 .header {
   display: flex;
@@ -33,18 +34,20 @@ body {
   z-index: 1;
   justify-content: space-between;
 }
+.menu{
+  display: none;
+}
 logo {
   width: 30vw;
   font-size: 2rem;
   margin: auto 0;
   display: flex;
   font-family: "Berkshire Swash", cursive;
-
 }
-logo a{
-    cursor: pointer;
-    text-decoration: none;
-    color: var(--dark-color);
+logo a {
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--dark-color);
 }
 logo span {
   text-decoration: double;
@@ -57,8 +60,6 @@ logo span {
   width: 75%;
   display: flex;
   justify-content: space-around;
-
-
 }
 .header ul li {
   list-style: none;
@@ -67,12 +68,12 @@ logo span {
 }
 .header ul li a {
   font-size: 1.2rem;
-    padding: 0.5rem;
+  padding: 0.5rem;
   color: var(--dark-color);
   font-weight: bold;
   cursor: pointer;
   text-decoration: none;
-    transition: ease-in-out .5s;
+  transition: ease-in-out 0.5s;
 }
 .header ul li a:hover,
 .header ul li:active {
@@ -395,23 +396,33 @@ textarea {
     justify-content: space-between;
   }
 
-  .header .no-display{
-    display: none;
+  .header .no-display {
+    /* display: none; */
+        display: flex;
+    flex-direction: column;
+    transform: translateY(0rem);
+    position: absolute;
+    top: 4rem;
+    left: 120%;
+    height: 30vh;
+    justify-content: space-around;
+    transition: .3s ease;
   }
-  
+
   .header .sidebar {
     background-color: var(--main-color);
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 4rem;
+    top: 4.5rem;
     left: 0;
     width: 100vw;
     height: 60vh;
     padding: 3rem 0rem;
     justify-content: space-around;
     box-shadow: 0px 1px 5px 2px;
-  
+    transform: translateY(0);
+    transition: 0.3s ease;
   }
 
   .header ul li {
@@ -424,8 +435,7 @@ textarea {
     font-size: 1.2rem;
     font-weight: bold;
   }
-  .header ul li a 
-  {
+  .header ul li a {
     color: var(--white-color);
   }
   .header ul li a:hover {
@@ -470,17 +480,15 @@ textarea {
   }
   .hero-txt {
     width: 100%;
-  
-    margin: 8rem 0 2rem;
 
+    margin: 8rem 0 2rem;
   }
-    .hero-txt h1{
-      
-    }
-    .hero-txt p{
-      line-height: 1.5;
-        max-width: 85%;
-    }
+  .hero-txt h1 {
+  }
+  .hero-txt p {
+    line-height: 1.5;
+    max-width: 85%;
+  }
   .hero-img {
     display: none;
   }
@@ -504,7 +512,6 @@ textarea {
     text-align: left;
   }
 
-
   #services {
     margin-top: 0;
   }
@@ -523,7 +530,6 @@ textarea {
   .services-ctn span {
     display: none;
   }
-
 
   #projects {
     margin: 0;

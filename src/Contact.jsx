@@ -18,7 +18,7 @@ const Contact = () => {
         <form
           useRef={submitForm}
           onSubmit={sendEmail}
-          action="https://formsubmit.co/your@email.com"
+          action="https://formsubmit.co/ayomideoke9@gmail.com"
           method="POST"
         >
           <label htmlFor="name">Name</label>
