@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { FaBars } from "react-icons/fa";
-import { FaTimes } from 'react-icons/fa'
+import { FaTimes } from "react-icons/fa";
 
 const Header = () => {
   const [showSideBar, setShowSideBar] = useState(false);
