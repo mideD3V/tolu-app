@@ -16,13 +16,7 @@ const Services = () => {
           <li>- CONTENT CREATION</li>
         </ul>
       </div>
-          {/* <ul>
-              <li className='service-card1'>
-                  GRAPHIC DESIGNS
-              </li>
-              <li className='service-card2'>CANVA DESIGNS</li>
-              <li className='service-card3'>CONTENT CREATOR</li>
-      </ul> */}
+    
       
     </div>
   )

@@ -1,5 +1,5 @@
 import React from 'react'
-import Tolu from './tolu.png'
+import Tolu from './tolu.jpg'
 const About = () => {
   return (
     <div className="about">

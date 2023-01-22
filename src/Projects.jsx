@@ -5,25 +5,25 @@ import Project3 from './proj2.PNG'
 
 const Projects = () => {
   return (
-    <div id="projects">
-      <h2>PROJECTS</h2>
+    <div className="projects">
+      <h2>PROJECTS (Samples)</h2>
       <div className="cards-ctn">
         <div className="card">
           <div className='card-img'>
             <img src={Project1} alt="" />
           </div>
-          <h3 className="title">Design for HhAmanagreens</h3>
-          <p>Year: 2022</p>
+          <h3 className="title">Digital content for Sam's Studio</h3>
+          <p>Year: 2021</p>
         </div>
 
         <div className="card">
            <div className='card-img'><img src={Project2} alt="" /></div>
-          <h3 className="title">Food Content for social media </h3>
+          <h3 className="title">Bronchure for Yellow Bricks  </h3>
           <p>Year: 2022</p>
         </div>
         <div className="card">
            <div className='card-img'><img src={Project3} alt="" /></div>
-          <h3 className="title">Company Profile Design for Kinda</h3>
+          <h3 className="title">Bronchure for a Real Estate Firm</h3>
           <p>Year: 2022</p>
         </div>
       </div>

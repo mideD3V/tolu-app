@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { GiHamburgerMenu } from 'react-icons/gi'
+import { FaBars } from "react-icons/fa";
 import { FaTimes } from 'react-icons/fa'
 
 const Header = () => {
@@ -15,13 +15,7 @@ const Header = () => {
       </logo>
 
       <div className="menu" onClick={() => setShowSideBar(!showSideBar)}>
-
-        {showSideBar ? (
-          <FaTimes size={"30px"} />
-        ) : (
-          <GiHamburgerMenu size={"30px"} />
-        )}
-
+        {showSideBar ? <FaTimes size={"30px"} /> : <FaBars size={"30px"} />}
       </div>
 
       <ul className={showSideBar ? "sidebar" : "no-display"}>
