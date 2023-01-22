@@ -32,6 +32,7 @@ body {
   position: fixed;
   z-index: 1;
   justify-content: space-between;
+  /* box-shadow: 1px 1px 5px rgba(128, 128, 128, 0.518); */
 }
 .menu {
   display: none;
@@ -58,6 +59,7 @@ logo span {
 .header ul {
   width: 50%;
   display: flex;
+  padding-right: 7rem;
   justify-content: space-around;
 }
 .header ul li {
@@ -66,13 +68,13 @@ logo span {
   justify-content: space-around;
 }
 .header ul li a {
-  font-size: 1.2rem;
+  font-size: 1.35rem;
   padding: 0.5rem;
   color: var(--dark-color);
   font-weight: bold;
   cursor: pointer;
   text-decoration: none;
-  transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.35s;
 }
 .header ul li a:hover,
 .header ul li:active {
@@ -92,7 +94,7 @@ section {
 .hero {
   display: flex;
   position: relative;
-  height: 70vh;
+  height: 75vh;
   padding-right: 10rem;
   padding-top: 7rem;
   overflow: hidden;
@@ -104,16 +106,17 @@ section {
   margin-left: 7rem;
 }
 .hero-txt p {
-  font-size: 1.2rem;
+  font-size: 1.35rem;
   color: var(--dark-color);
   line-height: 1.5;
 }
 .hero-txt h5 {
-  font-size: 1.2rem;
+  font-size: 1.35rem;
 }
 
 .hero-txt h1 {
   font-size: 5rem;
+  font-weight: 700;
   margin: 0.35rem 0;
   color: var(--dark-color);
 }
@@ -123,7 +126,7 @@ section {
   color: var(--white-color);
   border: none;
   border-radius: 7px;
-  font-size: 1.2rem;
+  font-size: 1.35rem;
   font-weight: bold;
   margin-top: 1rem;
   cursor: pointer;
@@ -169,7 +172,7 @@ section {
   overflow: hidden;
   margin-left: 10vw;
   box-shadow: 5px 5px 5px var(--sec-color);
-  border-radius: 35%;
+  border-radius: 45%;
 }
 .abt-img img {
   width: 70%;
@@ -188,7 +191,7 @@ section {
 }
 #about p {
   color: var(--dark-color);
-  font-size: 1.2rem;
+  font-size: 1.35rem;
   line-height: 2;
   margin-top: 1rem;
 }
@@ -212,7 +215,7 @@ section {
   display: flex;
   color: var(--dark-color);
   width: 100%;
-  margin: 2rem auto;
+  margin: -5rem auto 2rem;
   padding: 0;
 }
 .services-ctn .my-services {
@@ -227,7 +230,7 @@ section {
 }
 .services-ctn span {
   margin: -1rem 1rem;
-  width: 5%;
+  width: 3%;
   height: 25rem;
   border-radius: 25%;
   border-left: 3px solid var(--main-color);
@@ -317,6 +320,7 @@ section {
   min-width: 7rem;
   transform: rotate(-80deg);
   margin-left: -7rem;
+  margin-top: -5rem;
 }
 .contact-sess {
   display: flex;
@@ -414,6 +418,11 @@ textarea {
   transform: scale(1.5);
 }
 
+
+
+
+/* MEDIA QUERY FOR MOBILE SCREEN */
+
 @media screen and (max-width: 700px) {
   /* navbar */
   .header {
@@ -503,7 +512,7 @@ textarea {
     flex-direction: column;
     position: relative;
     padding: 0 2rem;
-    height: 75vh;
+    height: 80vh;
   }
   .hero-txt {
     width: 100%;
@@ -516,6 +525,7 @@ textarea {
   .hero-txt p {
     line-height: 1.5;
     max-width: 85%;
+
   }
   .hero-img {
     display: none;
@@ -538,7 +548,7 @@ textarea {
   }
   .text {
     width: 100%;
-    margin: 2rem 0;
+    margin: 5rem 0 0;
     padding: 0%;
     text-align: left;
   }
@@ -570,54 +580,13 @@ textarea {
     display: none;
   }
   .services-list {
-    font-size: 1.5rem;
     width: 100%;
     padding: 0;
     margin: 0 -2rem;
   }
+    .services-list li {
+    font-size: 1.3rem;}
 
-  /* #services {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    padding-bottom: 3rem;
-    background-color: #a51047;
-  }
-  #services h2{
-    width: 20%;
-    margin: 2rem;
-  }
-  .services-ctn {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    width: 100%;
-
-  }
-.my-services{
-  width: 320px;
-  padding: 2rem;
-  background-color: cyan;
-}
-  .my-services p {
-    width: 80%;
-  }
-
-  .services-list {
-  width: 50%;
-  margin: -1rem auto;
-  padding: 0rem;
-  font-size: 2rem;
-  }
-  .services-list li{
-    margin: 0rem;
-    font-size: 1.5rem;
-  }
-  .services-ctn span {
-    display: none;
-  } */
 
   /* projects section */
   #projects {
@@ -625,11 +594,11 @@ textarea {
   }
   #projects h2 {
     margin: 0;
-    padding: 0 2rem 3rem;
+    padding: 0 1rem 2rem;
   }
 
   .cards-ctn {
-    margin: 0;
+    margin: 0 auto;
   }
   .card {
     min-width: 90%;
