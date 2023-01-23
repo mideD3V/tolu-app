@@ -2,8 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Aladin&family=Frijole&family=Inria+Sans:wght@300;400;700&display=swap");
 :root {
   --dark-color: rgb(16, 27, 31);
-  --main-color: rgb(208, 24, 122);
-  --sec-color: rgb(208, 24, 122);
+  --main-color: rgb(142, 16, 93);
+  /* --main-color: rgb(188, 24, 125); */
+  --sec-color: rgb(151, 12, 105);
   --light-blue: rgb(255, 255, 255);
   --white-color: #fff;
 }
@@ -415,7 +416,7 @@ textarea {
 
 /* footer section */
 #footer {
-  background-color: var(--sec-color);
+  background-color: rgb(142, 16, 93);;
   color: var(--light-blue);
 }
 .footer p {
