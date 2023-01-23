@@ -10,11 +10,12 @@ const Footer = () => {
   return (
     <div className="footer">
       <logo>
-        <p>Tolu</p>
+        <a href='#' style={{color:'white'}}>Tolu</a>
       </logo>
       {/* <h2>Tolu</h2> */}
       <p>Connect with me on all social media platforms</p>
       <div className="socials">
+
         <FaTwitter className="social-icon" />
         <FaInstagram className="social-icon" />
         <FaBehance className="social-icon" />

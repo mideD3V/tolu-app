@@ -9,23 +9,63 @@ const Projects = () => {
       <h2>PROJECTS (Samples)</h2>
       <div className="cards-ctn">
         <div className="card">
-          <div className='card-img'>
+          <div className="card-img">
             <img src={Project1} alt="" />
           </div>
           <h3 className="title">Digital content for Sam's Studio</h3>
-          <p>Year: 2021</p>
+          {/* <p>Year: 2021</p> */}
+          <button>2021</button>
         </div>
 
         <div className="card">
-           <div className='card-img'><img src={Project2} alt="" /></div>
-          <h3 className="title">Bronchure for Yellow Bricks  </h3>
-          <p>Year: 2022</p>
+          <div className="card-img">
+            <img src={Project2} alt="" />
+          </div>
+          <h3 className="title">Bronchure for Yellow Bricks </h3>
+          {/* <p>Year: 2022</p> */}
+          <button>2022</button>
+        </div>
+
+        <div className="card">
+          <div className="card-img">
+            <img src={Project3} alt="" />
+          </div>
+          <h3 className="title">Bronchure for a Real Estate Firm</h3>
+          {/* <p>Year: 2022</p> */}
+          <button>2022</button>
+
         </div>
         <div className="card">
-           <div className='card-img'><img src={Project3} alt="" /></div>
+          <div className="card-img">
+            <img src={Project3} alt="" />
+          </div>
           <h3 className="title">Bronchure for a Real Estate Firm</h3>
-          <p>Year: 2022</p>
+          {/* <p>Year: 2022</p> */}
+          <button>2022</button>
+
         </div>
+        <div className="card">
+          <div className="card-img">
+            <img src={Project1} alt="" />
+          </div>
+          <h3 className="title">Bronchure for a Real Estate Firm</h3>
+          {/* <p>Year: 2022</p> */}
+          <button>2022</button>
+
+        </div>
+        <div className="card">
+          <div className="card-img">
+            <img src={Project2} alt="" />
+          </div>
+          <h3 className="title">Bronchure for a Real Estate Firm</h3>
+          {/* <p>Year: 2022</p> */}
+          <button>2022</button>
+
+        </div>
+
+
+
+
       </div>
     </div>
   );
