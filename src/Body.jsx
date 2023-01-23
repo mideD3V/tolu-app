@@ -1,12 +1,14 @@
-import React from 'react'
+import React from "react";
 // import Tolu from './tolu.png'
-import HeroImg from './mymind.png'
-import About from './About'
-import Contact from './Contact'
-import Services from './Services'
-import Projects from './Projects'
-import Footer from './Footer'
-import Typewriter from  'typewriter-effect'
+import HeroImg from "./mymind.png";
+import About from "./About";
+import Contact from "./Contact";
+import Services from "./Services";
+import Projects from "./Projects";
+import Footer from "./Footer";
+import Typewriter from "typewriter-effect";
+import ColorGrid from "./ColorGrid";
+
 const Body = () => {
   return (
     <div className="body">
@@ -32,6 +34,10 @@ const Body = () => {
         <div className="hero-img">
           <img src={HeroImg} alt="tolu" />
         </div>
+
+        <ColorGrid />
+
+
       </section>
       <section id="about">
         <About />
@@ -50,6 +56,6 @@ const Body = () => {
       </section>
     </div>
   );
-}
+};
 
-export default Body
+export default Body;
