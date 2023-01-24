@@ -1,6 +1,6 @@
 import React from "react";
 // import Tolu from './tolu.png'
-import HeroImg from "./mymind.png";
+import HeroImg from "./asset/mymind-rbg.png";
 import About from "./About";
 import Contact from "./Contact";
 import Services from "./Services";
@@ -8,6 +8,8 @@ import Projects from "./Projects";
 import Footer from "./Footer";
 import Typewriter from "typewriter-effect";
 import ColorGrid from "./ColorGrid";
+import LinearDot from './asset/SeekPng.com_dot.png'
+import RadialDot from './asset/dot-clipart.png'
 
 const Body = () => {
   return (
@@ -37,7 +39,10 @@ const Body = () => {
 
         <ColorGrid />
 
-
+        <div className="dots">
+          <img src={LinearDot} alt="" className="dot1"/>
+          <img src={RadialDot} alt="" className="dot2"/>
+        </div>
       </section>
       <section id="about">
         <About />
