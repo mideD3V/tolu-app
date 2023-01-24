@@ -35,12 +35,12 @@ const Projects = () => {
           <button>2022</button>
 
         </div>
-        <div className="card">
+        {/* <div className="card">
           <div className="card-img">
             <img src={Project3} alt="" />
           </div>
           <h3 className="title">Bronchure for a Real Estate Firm</h3>
-          {/* <p>Year: 2022</p> */}
+      
           <button>2022</button>
 
         </div>
@@ -49,7 +49,7 @@ const Projects = () => {
             <img src={Project1} alt="" />
           </div>
           <h3 className="title">Bronchure for a Real Estate Firm</h3>
-          {/* <p>Year: 2022</p> */}
+        
           <button>2022</button>
 
         </div>
@@ -58,10 +58,10 @@ const Projects = () => {
             <img src={Project2} alt="" />
           </div>
           <h3 className="title">Bronchure for a Real Estate Firm</h3>
-          {/* <p>Year: 2022</p> */}
+        
           <button>2022</button>
 
-        </div>
+        </div> */}
 
 
 
