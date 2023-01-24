@@ -51,7 +51,7 @@ height: 100%;
 
 .dots{
   position: absolute;
-width: 100vw;
+width: 100vw;/static/media/dot-clipart.baa95983db6d1054d829.png
 }
 .dot1 {
   position: absolute;
@@ -203,7 +203,7 @@ padding: 0;
 }
 .hero-img img {
   width: 100%;
-  margin-top: 10%;
+  margin-top: 15%;
   margin-left: -15%;
   transform: scale(.9);
 }
