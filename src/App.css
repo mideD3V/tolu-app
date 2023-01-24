@@ -375,11 +375,9 @@ border-radius: 1px 5px 1px 0;
   overflow: hidden;
 }
 .contact-img img {
-  width: 80%;
-  min-width: 7rem;
+  width: 100%;
   transform: rotate(-80deg);
-  margin-left: -7rem;
-  margin-top: -5rem;
+  margin: auto -50%;
 }
 .contact-sess {
   display: flex;
@@ -658,6 +656,7 @@ font-size: 1.3rem;
     width: 100%;
     padding: 0;
     margin: 0 -2rem;
+    text-align: left;
   }
     .services-list li {
       margin: 0 1rem;
@@ -701,10 +700,13 @@ font-size: 1.3rem;
     padding: 0;
     margin: 2rem 0 0.5rem;
   }
+  .form{
+    width: 100%;
+  }
 }
 
 
-@media (min-width:760px) and (max-width: 1200px){
+@media (min-width:760px) and (max-width: 1050px){
   .colorGrid{
     display: none;
   }
@@ -717,7 +719,17 @@ font-size: 1.3rem;
   .hero-txt p{
     min-width: 100%;
   }
+  #contact{
+    padding: 7rem;
+  }
   .contact-img img{
-    display: none;
+    
+  }
+  .form{
+    width:  60%;
+  }
+  .contact-img{
+    height: 50%;
+    width: 30%;
   }
 }

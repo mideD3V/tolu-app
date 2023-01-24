@@ -7,7 +7,7 @@ const Services = () => {
       
       <div className="services-ctn">
         <div className="my-services">
-          <p>I am passionate about delivering quality services and i ensure that my clients are satisfied (that is, they get value for any penny spent)</p>
+          <p>I am passionate about delivering quality services and i ensure that my clients are satisfied (that is, they get value for any penny spent). My core skills are;</p>
         </div>
         <span></span>
         <ul className="services-list">
