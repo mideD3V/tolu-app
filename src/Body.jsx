@@ -39,9 +39,9 @@ const Body = () => {
         </div>
 
         <div className="hero-img">
-          <marquee behavior="slide" direction="left"
+          <marquee behavior="slide" direction="down"
             loop='1'
-            scrolldelay='20' truespeed='2'>
+            scrolldelay='300' truespeed='2'>
             
             <img src={HeroImg} alt="tolu" />
           </marquee>

@@ -5,7 +5,7 @@ const About = () => {
     <div className="about">
       <div className="abt-img">
         <marquee behavior="slide"
-          loop='0' direction="alternate">
+          loop='0' scrolldelay='45' truespeed='2' direction="alternate">
           <img src={Tolu} alt="tolu" />
         </marquee>
       </div>
