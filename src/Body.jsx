@@ -26,22 +26,32 @@ const Body = () => {
 
           <h1>Graphics Designer & Content Creator</h1>
           <p>
-            I create amazing digital and graphic content for businesses to help
-            improve online presence and sales
+            <marquee behavior="slide" direction="down" scrolldelay="250">
+              I create amazing digital and graphic content for businesses to
+              help improve online presence and sales
+            </marquee>
           </p>
           <a href="#contact">
-            <button>Send me a message</button>
+            <button title="Send Charlotte a message about your project">
+              Send me a message
+            </button>
           </a>
         </div>
+
         <div className="hero-img">
-          <img src={HeroImg} alt="tolu" />
+          <marquee behavior="slide" direction="left"
+            loop='1'
+            scrolldelay='20' truespeed='2'>
+            
+            <img src={HeroImg} alt="tolu" />
+          </marquee>
         </div>
 
         <ColorGrid />
 
         <div className="dots">
-          <img src={LinearDot} alt="" className="dot1"/>
-          <img src={RadialDot} alt="" className="dot2"/>
+          <img src={LinearDot} alt="" className="dot1" />
+          <img src={RadialDot} alt="" className="dot2" />
         </div>
       </section>
       <section id="about">
